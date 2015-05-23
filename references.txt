@@ -1,0 +1,9 @@
+Daniel Abrego
+P3 Frogger
+References
+
+1)  Making Sprite-based Games with Canvas
+http://jlongster.com/Making-Sprite-based-Games-with-Canvas
+
+2)  No Tears Guide to HTML5 Games
+http://www.html5rocks.com/en/tutorials/canvas/notearsgame/
