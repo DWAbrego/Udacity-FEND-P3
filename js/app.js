@@ -99,7 +99,7 @@ Enemy.prototype.randomDx = function(){
 Enemy.prototype.randomXBoundary = function() {
   var x1 = Math.floor((Math.random() * 350) + 1) - 1;
   return 500 + x1;
-}
+};
 
 //////////////////////////////////////////////////////////////
 //
@@ -112,7 +112,7 @@ Enemy.prototype.update = function(dt) {
     // which will ensure the game runs at the same speed for
     // all computers.
 
-  for	(index = 0; index < allEnemies.length; index++) {
+  for	(var index = 0; index < allEnemies.length; index++) {
       var enemy = allEnemies[index];
 
       // if it crosses boundary then reset x
@@ -191,7 +191,7 @@ var Player = function() {
 // grid, keeping the player within the boundary.
 //
 /////////////////////////////////////////////////////////////
-Player.prototype.update = function(dt) {
+Player.prototype.update = function() {
 
   if(( this.tempX >= this.boundaryXleft  ) && ( this.tempX <= this.boundaryXright )) {
     this.x = this.tempX;
